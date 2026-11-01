@@ -1,0 +1,33 @@
+name: Check market
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: market.json is a valid index and every link resolves
+        run: |
+          python3 - <<'PY'
+          import json, re, sys, urllib.request
+          m = json.load(open("market.json"))
+          errors = []
+          assert m.get("schema") == 1, "schema must be 1"
+          ids = set()
+          for e in m.get("plugins", []):
+              i = e["id"]
+              if i in ids: errors.append(f"{i} listed twice")
+              ids.add(i)
+              if not i.startswith("lde."): errors.append(f"{i}: official ids start with lde.")
+              for path in (e.get("icon"), e.get("description")):
+                  if path and not path.startswith("https://"):
+                      try: open(path).close()
+                      except OSError: errors.append(f"{i}: {path} is missing")
+              if not e.get("versions"): errors.append(f"{i}: no versions")
+              for r in e.get("versions", []):
+                  if not re.fullmatch(r"[0-9a-f]{64}", r["sha256"]): errors.append(f"{i} {r['version']}: bad sha256")
+                  req = urllib.request.Request(r["package"], method="HEAD")
+                  try: urllib.request.urlopen(req, timeout=30)
+                  except Exception as ex: errors.append(f"{i} {r['version']}: {r['package']}: {ex}")
+          print("\n".join(errors) or f"{len(ids)} plugins OK")
+          sys.exit(1 if errors else 0)
+          PY
