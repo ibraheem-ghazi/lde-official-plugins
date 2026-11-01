@@ -3,5 +3,91 @@
   "name": "LDE Official",
   "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
   "key": "/TWWEjBapEqRuS+HSm938CMlwm3JijP3pq3aLwNuaxo=",
-  "plugins": []
+  "updated": "2026-11-01T00:00:00Z",
+  "plugins": [
+    {
+      "id": "lde.livewire",
+      "name": "Livewire",
+      "summary": "Livewire in views: components in @livewire, properties in wire:model and actions in wire:click (completion, hover, Go to Definition, problems and fixes that add what's missing), wire: names and modifiers, @livewire keys, and New Laravel File ▸ Livewire Component.",
+      "publisher": "LDE",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.livewire-v1.0.0/lde.livewire-1.0.0.ldeplugin",
+          "sha256": "9ff715bf09cc5ca8551c6604e58796c7235fd2c0dc34526607218cd5e6843b78",
+          "size": 112771,
+          "engine": "^0.1",
+          "api": "1.1",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-01",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.inertia",
+      "name": "Inertia",
+      "summary": "Inertia page names in Inertia::render, inertia() and Route::inertia: completion, hover, Go to Definition, and a problem for a page that isn't there, with Create Page.",
+      "publisher": "LDE",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.inertia-v1.0.0/lde.inertia-1.0.0.ldeplugin",
+          "sha256": "77eb4c4b9cc7d8e73fd6e384638ea0e1ebc462a63bdfb8921234865a3c7731bc",
+          "size": 54593,
+          "engine": "^0.1",
+          "api": "1.1",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-01",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.filament",
+      "name": "Filament",
+      "summary": "Filament resources: New Laravel File ▸ Filament Resource from a model's columns and relations, the box on New Model, and each model's resource in Go to Related, Model Overview and the Query panel.",
+      "publisher": "LDE",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.filament-v1.0.0/lde.filament-1.0.0.ldeplugin",
+          "sha256": "bf6155defb1d4098f6aeb83a850686f4c647d3d0d24021de09d0ba437dd409a8",
+          "size": 85450,
+          "engine": "^0.1",
+          "api": "1.1",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-01",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.translations",
+      "name": "Translation Manager",
+      "summary": "Edit a Laravel project's JSON translations as a table: every key in every locale, with what's missing.",
+      "publisher": "LDE",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.translations-v1.0.0/lde.translations-1.0.0.ldeplugin",
+          "sha256": "6f849a1c17149db1853b44266f2c515c417d2949e09e33f24a96a9ef0916ac83",
+          "size": 71358,
+          "engine": "^0.1",
+          "api": "1.1",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-01",
+          "changes": "First release in the official market."
+        }
+      ]
+    }
+  ]
 }
