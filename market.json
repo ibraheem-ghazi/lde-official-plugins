@@ -24,7 +24,24 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ]
+      ],
+      "icon": "icons/lde.livewire.svg",
+      "description": "docs/lde.livewire.md",
+      "categories": [
+        "laravel",
+        "frontend"
+      ],
+      "keywords": [
+        "livewire",
+        "blade",
+        "wire:model"
+      ],
+      "wanted": {
+        "composer": [
+          "livewire/livewire"
+        ]
+      },
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
     },
     {
       "id": "lde.inertia",
@@ -45,7 +62,25 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ]
+      ],
+      "icon": "icons/lde.inertia.svg",
+      "description": "docs/lde.inertia.md",
+      "categories": [
+        "laravel",
+        "frontend"
+      ],
+      "keywords": [
+        "inertia",
+        "vue",
+        "react",
+        "pages"
+      ],
+      "wanted": {
+        "composer": [
+          "inertiajs/inertia-laravel"
+        ]
+      },
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
     },
     {
       "id": "lde.filament",
@@ -66,7 +101,24 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ]
+      ],
+      "icon": "icons/lde.filament.svg",
+      "description": "docs/lde.filament.md",
+      "categories": [
+        "laravel",
+        "admin"
+      ],
+      "keywords": [
+        "filament",
+        "admin panel",
+        "resources"
+      ],
+      "wanted": {
+        "composer": [
+          "filament/filament"
+        ]
+      },
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
     },
     {
       "id": "lde.translations",
@@ -87,7 +139,25 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ]
+      ],
+      "icon": "icons/lde.translations.svg",
+      "description": "docs/lde.translations.md",
+      "categories": [
+        "laravel",
+        "localization"
+      ],
+      "keywords": [
+        "translations",
+        "i18n",
+        "lang"
+      ],
+      "wanted": {
+        "folders": [
+          "lang",
+          "resources/lang"
+        ]
+      },
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
     }
   ]
 }
