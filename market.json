@@ -3,13 +3,30 @@
   "name": "LDE Official",
   "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
   "key": "/TWWEjBapEqRuS+HSm938CMlwm3JijP3pq3aLwNuaxo=",
-  "updated": "2026-11-01T00:00:00Z",
+  "updated": "2026-11-17T00:00:00Z",
   "plugins": [
     {
       "id": "lde.livewire",
       "name": "Livewire",
       "summary": "Livewire in views: components in @livewire, properties in wire:model and actions in wire:click (completion, hover, Go to Definition, problems and fixes that add what's missing), wire: names and modifiers, @livewire keys, and New Laravel File ▸ Livewire Component.",
+      "description": "docs/lde.livewire.md",
       "publisher": "LDE",
+      "icon": "icons/lde.livewire.svg",
+      "categories": [
+        "laravel",
+        "frontend"
+      ],
+      "keywords": [
+        "livewire",
+        "blade",
+        "wire:model"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "wanted": {
+        "composer": [
+          "livewire/livewire"
+        ]
+      },
       "versions": [
         {
           "version": "1.0.0",
@@ -24,30 +41,31 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ],
-      "icon": "icons/lde.livewire.svg",
-      "description": "docs/lde.livewire.md",
-      "categories": [
-        "laravel",
-        "frontend"
-      ],
-      "keywords": [
-        "livewire",
-        "blade",
-        "wire:model"
-      ],
-      "wanted": {
-        "composer": [
-          "livewire/livewire"
-        ]
-      },
-      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
+      ]
     },
     {
       "id": "lde.inertia",
       "name": "Inertia",
       "summary": "Inertia page names in Inertia::render, inertia() and Route::inertia: completion, hover, Go to Definition, and a problem for a page that isn't there, with Create Page.",
+      "description": "docs/lde.inertia.md",
       "publisher": "LDE",
+      "icon": "icons/lde.inertia.svg",
+      "categories": [
+        "laravel",
+        "frontend"
+      ],
+      "keywords": [
+        "inertia",
+        "vue",
+        "react",
+        "pages"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "wanted": {
+        "composer": [
+          "inertiajs/inertia-laravel"
+        ]
+      },
       "versions": [
         {
           "version": "1.0.0",
@@ -62,31 +80,30 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ],
-      "icon": "icons/lde.inertia.svg",
-      "description": "docs/lde.inertia.md",
-      "categories": [
-        "laravel",
-        "frontend"
-      ],
-      "keywords": [
-        "inertia",
-        "vue",
-        "react",
-        "pages"
-      ],
-      "wanted": {
-        "composer": [
-          "inertiajs/inertia-laravel"
-        ]
-      },
-      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
+      ]
     },
     {
       "id": "lde.filament",
       "name": "Filament",
       "summary": "Filament resources: New Laravel File ▸ Filament Resource from a model's columns and relations, the box on New Model, and each model's resource in Go to Related, Model Overview and the Query panel.",
+      "description": "docs/lde.filament.md",
       "publisher": "LDE",
+      "icon": "icons/lde.filament.svg",
+      "categories": [
+        "laravel",
+        "admin"
+      ],
+      "keywords": [
+        "filament",
+        "admin panel",
+        "resources"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "wanted": {
+        "composer": [
+          "filament/filament"
+        ]
+      },
       "versions": [
         {
           "version": "1.0.0",
@@ -101,30 +118,31 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ],
-      "icon": "icons/lde.filament.svg",
-      "description": "docs/lde.filament.md",
-      "categories": [
-        "laravel",
-        "admin"
-      ],
-      "keywords": [
-        "filament",
-        "admin panel",
-        "resources"
-      ],
-      "wanted": {
-        "composer": [
-          "filament/filament"
-        ]
-      },
-      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
+      ]
     },
     {
       "id": "lde.translations",
       "name": "Translation Manager",
       "summary": "Edit a Laravel project's JSON translations as a table: every key in every locale, with what's missing.",
+      "description": "docs/lde.translations.md",
       "publisher": "LDE",
+      "icon": "icons/lde.translations.svg",
+      "categories": [
+        "laravel",
+        "localization"
+      ],
+      "keywords": [
+        "translations",
+        "i18n",
+        "lang"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "wanted": {
+        "folders": [
+          "lang",
+          "resources/lang"
+        ]
+      },
       "versions": [
         {
           "version": "1.0.0",
@@ -139,25 +157,69 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
-      ],
-      "icon": "icons/lde.translations.svg",
-      "description": "docs/lde.translations.md",
-      "categories": [
-        "laravel",
-        "localization"
-      ],
-      "keywords": [
-        "translations",
-        "i18n",
-        "lang"
-      ],
-      "wanted": {
-        "folders": [
-          "lang",
-          "resources/lang"
-        ]
-      },
-      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "laravel-pest-tests",
+      "summary": "Writes and fixes Pest tests for a Laravel app the way the project already tests. Use when adding a feature or bug fix that needs tests, when a test fails, or when the user asks for tests.",
+      "scripts": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/skill-laravel-pest-tests-v1.0.0/laravel-pest-tests-1.0.0.tar.gz",
+          "sha256": "1e3f25aaf8d83007d1014a466b8b0417eaa0a2a6b195e1f7e5c12019b9f8c696",
+          "size": 1110,
+          "released": "2026-11-17",
+          "changes": "First release."
+        }
+      ]
+    },
+    {
+      "name": "laravel-migrations",
+      "summary": "Creates and changes Laravel database migrations safely (new tables, columns, indexes, foreign keys, renames) and keeps models and factories in step. Use for any schema change.",
+      "scripts": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/skill-laravel-migrations-v1.0.0/laravel-migrations-1.0.0.tar.gz",
+          "sha256": "10f079d4442abc9c8b5f5716a20de565a0b78fd6b9c8d22f8546bd9da7ce4eb7",
+          "size": 960,
+          "released": "2026-11-17",
+          "changes": "First release."
+        }
+      ]
+    },
+    {
+      "name": "livewire-components",
+      "summary": "Builds and fixes Livewire 3 components (class + Blade view): properties, actions, forms, validation, events, lazy loading. Use when the task is a Livewire component or a wire: directive.",
+      "scripts": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/skill-livewire-components-v1.0.0/livewire-components-1.0.0.tar.gz",
+          "sha256": "c374ebb02cedcf9f6da7eb7f24cadf4636b69b1151405377beb7909aeda7c51e",
+          "size": 906,
+          "released": "2026-11-17",
+          "changes": "First release."
+        }
+      ]
+    },
+    {
+      "name": "filament-resources",
+      "summary": "Creates and changes Filament admin resources, forms, tables, filters, actions and relation managers following the panel's existing setup. Use when the task touches a Filament panel.",
+      "scripts": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/skill-filament-resources-v1.0.0/filament-resources-1.0.0.tar.gz",
+          "sha256": "64efda54f90edfbacd87fe6f41620752f89a240b119918e245518c9bd387b87c",
+          "size": 973,
+          "released": "2026-11-17",
+          "changes": "First release."
+        }
+      ]
     }
   ]
 }
