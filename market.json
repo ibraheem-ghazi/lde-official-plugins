@@ -3,7 +3,7 @@
   "name": "LDE Official",
   "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
   "key": "/TWWEjBapEqRuS+HSm938CMlwm3JijP3pq3aLwNuaxo=",
-  "updated": "2026-11-17T00:00:00Z",
+  "updated": "2026-11-21T00:00:00Z",
   "plugins": [
     {
       "id": "lde.livewire",
@@ -157,6 +157,301 @@
           "released": "2026-11-01",
           "changes": "First release in the official market."
         }
+      ]
+    },
+    {
+      "id": "lde.icons-outline",
+      "name": "LDE Outline",
+      "summary": "Thin coloured outline icons: a page or folder outline with the file type inside.",
+      "description": "docs/lde.icons-outline.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.icons-outline.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "icons",
+        "outline",
+        "line"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-outline-v1.0.0/lde.icons-outline-1.0.0.ldeplugin",
+          "sha256": "21f1d5618a36d97126ba8202d7d7ac61ae9c21f80fd26443a760928c641fc3e2",
+          "size": 13201,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.icons-neon",
+      "name": "LDE Neon",
+      "summary": "Dark tiles with glowing neon labels and outlined folders; made for dark themes.",
+      "description": "docs/lde.icons-neon.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.icons-neon.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "icons",
+        "neon",
+        "dark"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-neon-v1.0.0/lde.icons-neon-1.0.0.ldeplugin",
+          "sha256": "2109af1d79c31d703874a1280cdb7dc59149aedc1dced0f715ac73df22700f21",
+          "size": 15071,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.icons-pastel",
+      "name": "LDE Pastel",
+      "summary": "Soft pastel pages and folders with deep-toned labels and emblems.",
+      "description": "docs/lde.icons-pastel.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.icons-pastel.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "icons",
+        "pastel",
+        "soft"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-pastel-v1.0.0/lde.icons-pastel-1.0.0.ldeplugin",
+          "sha256": "97d860a7165a6c72bc19c08d67c26797e80d29722d6737520b2fd88597ec546c",
+          "size": 13720,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.icons-orbit",
+      "name": "LDE Orbit",
+      "summary": "A coloured disc per file type; folders wear a coloured dot with their emblem.",
+      "description": "docs/lde.icons-orbit.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.icons-orbit.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "icons",
+        "circles",
+        "round"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-orbit-v1.0.0/lde.icons-orbit-1.0.0.ldeplugin",
+          "sha256": "4602beab0bc8ee15fb2790740019ab156eba8302cafc632e5c741457d332cdda",
+          "size": 12994,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.icons-mono",
+      "name": "LDE Mono",
+      "summary": "One-colour line icons tinted with your colour theme's own colours.",
+      "description": "docs/lde.icons-mono.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.icons-mono.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "icons",
+        "monochrome",
+        "minimal"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-mono-v1.0.0/lde.icons-mono-1.0.0.ldeplugin",
+          "sha256": "f739faf2ac2f3b940ad375f1d7c7ec2dd68d8674cd5030cad81c2a0c2607baab",
+          "size": 12239,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.theme-aurora",
+      "name": "Aurora",
+      "summary": "A deep night-blue dark theme lit by aurora greens and teals.",
+      "description": "docs/lde.theme-aurora.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.theme-aurora.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "theme",
+        "dark",
+        "blue",
+        "teal"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-aurora-v1.0.0/lde.theme-aurora-1.0.0.ldeplugin",
+          "sha256": "788329e91a7a1b26dea3af64452ed2be579f238f06b753d0f170649e4b454768",
+          "size": 2466,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.theme-ember",
+      "name": "Ember",
+      "summary": "A warm charcoal dark theme with glowing orange and amber.",
+      "description": "docs/lde.theme-ember.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.theme-ember.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "theme",
+        "dark",
+        "warm",
+        "orange"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-ember-v1.0.0/lde.theme-ember-1.0.0.ldeplugin",
+          "sha256": "b77628c7d587cefcb63fe8a03ceef04f22097e65c45c1a713f88b91b0ffb294c",
+          "size": 2454,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.theme-sakura",
+      "name": "Sakura",
+      "summary": "A soft blossom-pink light theme with rose and plum accents.",
+      "description": "docs/lde.theme-sakura.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.theme-sakura.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "theme",
+        "light",
+        "pink",
+        "soft"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-sakura-v1.0.0/lde.theme-sakura-1.0.0.ldeplugin",
+          "sha256": "53c805fdd3788a33e099868a6d6156f7112d8be917b63a00238619d3e5921b21",
+          "size": 2446,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.theme-forest",
+      "name": "Forest",
+      "summary": "A deep evergreen dark theme with moss, fern and amber.",
+      "description": "docs/lde.theme-forest.md",
+      "publisher": "LDE",
+      "icon": "icons/lde.theme-forest.svg",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "theme",
+        "dark",
+        "green",
+        "nature"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-forest-v1.0.0/lde.theme-forest-1.0.0.ldeplugin",
+          "sha256": "ed9e8d22653f19590a95490073d496aadc5e9bdd8b79a4734021e711df3bcd5b",
+          "size": 2444,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ]
+    },
+    {
+      "id": "lde.theme-paper",
+      "name": "Paper",
+      "summary": "A calm warm-paper light theme with ink-blue text, easy on the eyes.",
+      "publisher": "LDE",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-paper-v1.0.0/lde.theme-paper-1.0.0.ldeplugin",
+          "sha256": "d61534194cd1501a61559e9084eea16e9624638b747eab8c69fad57ae94aeebc",
+          "size": 2425,
+          "engine": "^0.1",
+          "api": "1.2",
+          "released": "2026-11-21",
+          "changes": "First release in the official market."
+        }
+      ],
+      "icon": "icons/lde.theme-paper.svg",
+      "description": "docs/lde.theme-paper.md",
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "categories": [
+        "themes"
+      ],
+      "keywords": [
+        "theme",
+        "light",
+        "paper",
+        "calm"
       ]
     }
   ],
