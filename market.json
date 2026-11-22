@@ -3,7 +3,7 @@
   "name": "LDE Official",
   "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
   "key": "/TWWEjBapEqRuS+HSm938CMlwm3JijP3pq3aLwNuaxo=",
-  "updated": "2026-11-21T00:00:00Z",
+  "updated": "2026-11-22T00:00:00Z",
   "plugins": [
     {
       "id": "lde.livewire",
@@ -28,6 +28,19 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.livewire-v1.0.1/lde.livewire-1.0.1.ldeplugin",
+          "sha256": "c0a456559f814c41c5fc962d49aa57616929a986ffce0046f96b84a76c236bbd",
+          "size": 112769,
+          "engine": "^1.0",
+          "api": "1.3",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
         {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.livewire-v1.0.0/lde.livewire-1.0.0.ldeplugin",
@@ -68,6 +81,19 @@
       },
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.inertia-v1.0.1/lde.inertia-1.0.1.ldeplugin",
+          "sha256": "e34a12c3e69fb133a4aea1884c62849229daf8bf0d833c4ec00b868f8faf1661",
+          "size": 54594,
+          "engine": "^1.0",
+          "api": "1.3",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.inertia-v1.0.0/lde.inertia-1.0.0.ldeplugin",
           "sha256": "77eb4c4b9cc7d8e73fd6e384638ea0e1ebc462a63bdfb8921234865a3c7731bc",
@@ -105,6 +131,19 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.filament-v1.0.1/lde.filament-1.0.1.ldeplugin",
+          "sha256": "6c9bea67e3513bca33a9f9c7ca475da16d2b7a4adf2672985fa10c0f61b3db3c",
+          "size": 85446,
+          "engine": "^1.0",
+          "api": "1.3",
+          "permissions": [
+            "project.read"
+          ],
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
         {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.filament-v1.0.0/lde.filament-1.0.0.ldeplugin",
@@ -145,6 +184,21 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.translations-v1.1.0/lde.translations-1.1.0.ldeplugin",
+          "sha256": "fa7e37e5d913e9b784de1b42bbf587cd686c0e874f0a5e74117edf65af9477e6",
+          "size": 101946,
+          "engine": "^1.0",
+          "api": "1.3",
+          "permissions": [
+            "project.read",
+            "project.write:lang/**",
+            "project.write:resources/lang/**"
+          ],
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.translations-v1.0.0/lde.translations-1.0.0.ldeplugin",
           "sha256": "6f849a1c17149db1853b44266f2c515c417d2949e09e33f24a96a9ef0916ac83",
@@ -177,6 +231,16 @@
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-outline-v1.0.1/lde.icons-outline-1.0.1.ldeplugin",
+          "sha256": "04ccb9e43e0a82f2d5a3c86bc443b31970af2ce155a60e2b3d770def1cd09f2f",
+          "size": 13201,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-outline-v1.0.0/lde.icons-outline-1.0.0.ldeplugin",
           "sha256": "21f1d5618a36d97126ba8202d7d7ac61ae9c21f80fd26443a760928c641fc3e2",
@@ -205,6 +269,16 @@
       ],
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-neon-v1.0.1/lde.icons-neon-1.0.1.ldeplugin",
+          "sha256": "c80895a216aa93f45748a52c498f58d18ad68f100c1e783de29510ddc60abc44",
+          "size": 15076,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
         {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-neon-v1.0.0/lde.icons-neon-1.0.0.ldeplugin",
@@ -235,6 +309,16 @@
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-pastel-v1.0.1/lde.icons-pastel-1.0.1.ldeplugin",
+          "sha256": "f421f3e36aec395d506836fa4908edb26af2a62331c1e9593adbb4fb82a9b307",
+          "size": 13720,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-pastel-v1.0.0/lde.icons-pastel-1.0.0.ldeplugin",
           "sha256": "97d860a7165a6c72bc19c08d67c26797e80d29722d6737520b2fd88597ec546c",
@@ -264,6 +348,16 @@
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-orbit-v1.0.1/lde.icons-orbit-1.0.1.ldeplugin",
+          "sha256": "daae4074fbeba1943bf632c85ac29b997c3301cc71abbc0702cfe4f53a46f3f1",
+          "size": 12993,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-orbit-v1.0.0/lde.icons-orbit-1.0.0.ldeplugin",
           "sha256": "4602beab0bc8ee15fb2790740019ab156eba8302cafc632e5c741457d332cdda",
@@ -292,6 +386,16 @@
       ],
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-mono-v1.0.1/lde.icons-mono-1.0.1.ldeplugin",
+          "sha256": "32b495f57840072727967d4007be678047dac5abf615e21fa6fb800503f0c455",
+          "size": 12234,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
         {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.icons-mono-v1.0.0/lde.icons-mono-1.0.0.ldeplugin",
@@ -323,6 +427,16 @@
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-aurora-v1.0.1/lde.theme-aurora-1.0.1.ldeplugin",
+          "sha256": "a85adeb153e10fd232223c6c5cfc109b4c1294249918be6aca38425b8fb767cd",
+          "size": 2472,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-aurora-v1.0.0/lde.theme-aurora-1.0.0.ldeplugin",
           "sha256": "788329e91a7a1b26dea3af64452ed2be579f238f06b753d0f170649e4b454768",
@@ -352,6 +466,16 @@
       ],
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-ember-v1.0.1/lde.theme-ember-1.0.1.ldeplugin",
+          "sha256": "cc9a7ba8382af60a499663dcfd46fb7cc1c4473fdd39cefcb050633112034d71",
+          "size": 2457,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
         {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-ember-v1.0.0/lde.theme-ember-1.0.0.ldeplugin",
@@ -383,6 +507,16 @@
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-sakura-v1.0.1/lde.theme-sakura-1.0.1.ldeplugin",
+          "sha256": "005f83ce99d0980d20d3c1c54e44729357bf5a9c9c2779184c82e3dfad38c2f5",
+          "size": 2449,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-sakura-v1.0.0/lde.theme-sakura-1.0.0.ldeplugin",
           "sha256": "53c805fdd3788a33e099868a6d6156f7112d8be917b63a00238619d3e5921b21",
@@ -412,6 +546,16 @@
       ],
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-forest-v1.0.1/lde.theme-forest-1.0.1.ldeplugin",
+          "sha256": "14835cd8919a2ca36d802519c7929d0117a9828d6d85aa1a48bc5616974b2007",
+          "size": 2441,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
         {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-forest-v1.0.0/lde.theme-forest-1.0.0.ldeplugin",
@@ -443,6 +587,16 @@
       "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
       "versions": [
         {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-paper-v1.0.1/lde.theme-paper-1.0.1.ldeplugin",
+          "sha256": "201c597625ed0b245e1b25dc63f22e6d8513957f87aaf5ace1b86dba8ec73785",
+          "size": 2423,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
           "version": "1.0.0",
           "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.theme-paper-v1.0.0/lde.theme-paper-1.0.0.ldeplugin",
           "sha256": "d61534194cd1501a61559e9084eea16e9624638b747eab8c69fad57ae94aeebc",
@@ -458,22 +612,9 @@
       "id": "lde.snapshot",
       "name": "Code Snapshot",
       "summary": "Turn selected code into a beautiful image: highlighted as in your editor or in one of seven themes, in a window on a gradient, with a soft shadow and an optional watermark. Copy it to the clipboard in one keystroke, or tune it in the live Snapshot studio and save a PNG.",
-      "publisher": "LDE",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.snapshot-v1.0.0/lde.snapshot-1.0.0.ldeplugin",
-          "sha256": "9d104457ef48a5cd67d0f8242f2ad7b9e3ed5d9eb65ecb6740e75cb3edce8fba",
-          "size": 1249265,
-          "engine": "^0.1",
-          "api": "1.3",
-          "released": "2026-11-21",
-          "changes": "First release: selected code as a polished image. ⌘⇧C copies it, ⌘⌥⇧S opens the Snapshot studio; settings under Tools."
-        }
-      ],
-      "icon": "icons/lde.snapshot.svg",
       "description": "docs/lde.snapshot.md",
-      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "publisher": "LDE",
+      "icon": "icons/lde.snapshot.svg",
       "categories": [
         "tools"
       ],
@@ -485,6 +626,29 @@
         "code",
         "png",
         "clipboard"
+      ],
+      "homepage": "https://github.com/ibraheem-ghazi/lde-official-plugins",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.snapshot-v1.0.1/lde.snapshot-1.0.1.ldeplugin",
+          "sha256": "c578479c66381140314dfe8ad73569d2231b9a90bc5be4823c8716313e6346e5",
+          "size": 1249264,
+          "engine": "^1.0",
+          "api": "1.3",
+          "released": "2026-11-22",
+          "changes": "Made for LDE 1.0."
+        },
+        {
+          "version": "1.0.0",
+          "package": "https://github.com/ibraheem-ghazi/lde-official-plugins/releases/download/lde.snapshot-v1.0.0/lde.snapshot-1.0.0.ldeplugin",
+          "sha256": "9d104457ef48a5cd67d0f8242f2ad7b9e3ed5d9eb65ecb6740e75cb3edce8fba",
+          "size": 1249265,
+          "engine": "^0.1",
+          "api": "1.3",
+          "released": "2026-11-21",
+          "changes": "First release: selected code as a polished image. ⌘⇧C copies it, ⌘⌥⇧S opens the Snapshot studio; settings under Tools."
+        }
       ]
     }
   ],
